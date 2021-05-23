@@ -29,34 +29,3 @@ jobs:
         with:
           name: ${{ env.name }}
           path: ${{ env.name }}.torrent
-name: Create torrent using py3createtorrent
-on:
-  push:
-    paths:
-      - ".github/workflows/py3createtorrent.yml"
-      
-env:
-  name: "EP9000-CUSA01073_00-RCPS400000000000_4.pkg" 
-  comment: "EP9000-CUSA01073_00-RCPS400000000000_4.pkg"
-  url: "http://gs2.ww.prod.dl.playstation.net/gs2/appkgo/prod/CUSA01073_00/2/f_124587cd15d63dda9395a6ff2c5ea26145a2a095cad75d458b05783e3c1f56c0/f/EP9000-CUSA01073_00-RCPS400000000000_4.pkg"
-  file_name: "EP9000-CUSA01073_00-RCPS400000000000_4.pkg"
-  piece_size: 0 # 0 for automatic calculation, or use the recommended piece size on the README.md file
-      
-jobs:
-  create:
-    runs-on: ubuntu-20.04
-    steps:
-      - name: Install py3createtorrent
-        run: sudo pip3 install py3createtorrent
-        
-      - name: Download file
-        run: wget -nv -O "$file_name" "$url"
-        
-      - name: Create torrent using py3createtorrent
-        run: py3createtorrent -p $piece_size -c "$comment" -o "${name}.torrent" --webseed "$url" "$file_name" # Tested on 1.0.0b2
-        
-      - name: Upload torrent file
-        uses: actions/upload-artifact@v2
-        with:
-          name: ${{ env.name }}
-          path: ${{ env.name }}.torrent
