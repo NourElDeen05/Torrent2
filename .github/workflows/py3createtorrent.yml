@@ -1,31 +1,45 @@
 name: Create torrent using py3createtorrent
 on:
   push:
-    paths:
-      - ".github/workflows/py3createtorrent.yml"
-      
+    branches:
+      - master 
+
 env:
-  name: "EP9000-CUSA01073_00-RCPS400000000000_4.pkg" 
-  comment: "EP9000-CUSA01073_00-RCPS400000000000_4.pkg"
-  url: "http://gs2.ww.prod.dl.playstation.net/gs2/appkgo/prod/CUSA01073_00/2/f_124587cd15d63dda9395a6ff2c5ea26145a2a095cad75d458b05783e3c1f56c0/f/EP9000-CUSA01073_00-RCPS400000000000_4.pkg"
-  file_name: "EP9000-CUSA01073_00-RCPS400000000000_4.pkg"
-  piece_size: 0 # 0 for automatic calculation, or use the recommended piece size on the README.md file
-      
+  url_1: "http://gs2.ww.prod.dl.playstation.net/gs2/appkgo/prod/CUSA01073_00/2/f_124587cd15d63dda9395a6ff2c5ea26145a2a095cad75d458b05783e3c1f56c0/f/EP9000-CUSA01073_00-RCPS400000000000_4.pkg"
+  file_name_1: "EP9000-CUSA01073_00-RCPS400000000000_4.pkg"
+  
+  
+  url_2: "http://gs2.ww.prod.dl.playstation.net/gs2/appkgo/prod/CUSA01073_00/2/f_124587cd15d63dda9395a6ff2c5ea26145a2a095cad75d458b05783e3c1f56c0/f/EP9000-CUSA01073_00-RCPS400000000000_5.pkg"
+  file_name_2: "EP9000-CUSA01073_00-RCPS400000000000_5.pkg"
+  
+ 
 jobs:
   create:
     runs-on: ubuntu-20.04
     steps:
-      - name: Install py3createtorrent
-        run: sudo pip3 install py3createtorrent
+      - name: Install mktorrent
+        run: sudo apt-get install mktorrent
         
-      - name: Download file
-        run: wget -nv -O "$file_name" "$url"
+      - name: Download file 1
+        run: wget -nv -O "$file_name_1" "$url_1"
+                
+      - name: Download file 2
+        run: wget -nv -O "$file_name_2" "$url_2"
         
-      - name: Create torrent using py3createtorrent
-        run: py3createtorrent -p $piece_size -c "$comment" -o "${name}.torrent" --webseed "$url" "$file_name" # Tested on 1.0.0b2
-        
-      - name: Upload torrent file
+      - name: Remove old artifacts
+        uses: c-hive/gha-remove-artifacts@v1
+        with:
+          age: '0 day'
+         
+      - name: Upload torrent file 1
         uses: actions/upload-artifact@v2
         with:
-          name: ${{ env.name }}
-          path: ${{ env.name }}.torrent
+          name: ${{ env.file_name_1 }}
+          path: ${{ env.file_name_1 }}
+          
+      - name: Upload torrent file 2
+        uses: actions/upload-artifact@v2
+        with:
+          name: ${{ env.file_name_2 }}
+          path: ${{ env.file_name_2 }}
+   
