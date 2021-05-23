@@ -25,7 +25,7 @@ jobs:
                 
       - name: Download file 2
         run: wget -nv -O "$file_name_2" "$url_2"
-        
+         
       - name: Remove old artifacts
         uses: c-hive/gha-remove-artifacts@v1
         with:
