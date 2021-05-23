@@ -11,10 +11,7 @@ env:
   url_2: "http://gs2.ww.prod.dl.playstation.net/gs2/appkgo/prod/CUSA01073_00/2/f_124587cd15d63dda9395a6ff2c5ea26145a2a095cad75d458b05783e3c1f56c0/f/EP9000-CUSA01073_00-RCPS400000000000_5.pkg"
   file_name_2: "EP9000-CUSA01073_00-RCPS400000000000_5.pkg"
   
-  url_3: "http://gs2.ww.prod.dl.playstation.net/gs2/appkgo/prod/CUSA01073_00/2/f_124587cd15d63dda9395a6ff2c5ea26145a2a095cad75d458b05783e3c1f56c0/f/EP9000-CUSA01073_00-RCPS400000000000_0.pkg"
-  file_name_3: "EP9000-CUSA01073_00-RCPS400000000000_Zero.pkg"
-
-  
+ 
 jobs:
   create:
     runs-on: ubuntu-20.04
