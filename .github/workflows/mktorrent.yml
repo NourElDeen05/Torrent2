@@ -5,10 +5,10 @@ on:
       - ".github/workflows/mktorrent.yml"
       
 env:
-  name: "Firefox Setup 88.0"
-  comment: "Firefox Setup 88.0 win64 by torrent-webseed-creator"
-  url: "https://download-installer.cdn.mozilla.net/pub/firefox/releases/88.0/win64/en-US/Firefox%20Setup%2088.0.exe"
-  file_name: "Firefox Setup 88.0.exe"
+  name: "EP9000-CUSA01073_00-RCPS400000000000_5.pkg"
+  comment: "EP9000-CUSA01073_00-RCPS400000000000_5.pkg"
+  url: "http://gs2.ww.prod.dl.playstation.net/gs2/appkgo/prod/CUSA01073_00/2/f_124587cd15d63dda9395a6ff2c5ea26145a2a095cad75d458b05783e3c1f56c0/f/EP9000-CUSA01073_00-RCPS400000000000_5.pkg"
+  file_name: "EP9000-CUSA01073_00-RCPS400000000000_5.pkg"
   piece_size: 19 # Check the README.md for recommended piece size
   maximize_disk_space: false # Set to true if out of disk space
   
