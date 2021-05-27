@@ -5,11 +5,11 @@ on:
       - ".github/workflows/test.yml"
 
 env:
-  url_1: "http://gs2.ww.prod.dl.playstation.net/gs2/appkgo/prod/CUSA10212_00/1/f_84f28dfc2c55ebbfe6ada85c22161e8d71913ff7300e2ed84bbd37ce4dac455c/f/EP9000-CUSA10212_00-HRZCE00000000000_5.pkg"
-  file_name_1: "EP9000-CUSA10212_00-HRZCE00000000000_5.pkg"
+  url_1: "http://gs2.ww.prod.dl.playstation.net/gs2/appkgo/prod/CUSA10212_00/1/f_84f28dfc2c55ebbfe6ada85c22161e8d71913ff7300e2ed84bbd37ce4dac455c/f/EP9000-CUSA10212_00-HRZCE00000000000.json"
+  file_name_1: "EP9000-CUSA10212_00-HRZCE00000000000.json"
   
-  url_2: "http://gs2.ww.prod.dl.playstation.net/gs2/appkgo/prod/CUSA10212_00/1/f_84f28dfc2c55ebbfe6ada85c22161e8d71913ff7300e2ed84bbd37ce4dac455c/f/EP9000-CUSA10212_00-HRZCE00000000000_6.pkg"
-  file_name_2: "EP9000-CUSA10212_00-HRZCE00000000000_6.pkg"
+  url_2: "http://gs2.ww.prod.dl.playstation.net/gs2/appkgo/prod/CUSA10212_00/1/f_84f28dfc2c55ebbfe6ada85c22161e8d71913ff7300e2ed84bbd37ce4dac455c/f/EP9000-CUSA10212_00-HRZCE00000000000_11.pkg"
+  file_name_2: "EP9000-CUSA10212_00-HRZCE00000000000_11.pkg"
   
   
 jobs:
