@@ -5,10 +5,10 @@ on:
       - ".github/workflows/test.yml"
 
 env:
-  url_1: "http://gs2.ww.prod.dl.playstation.net/gs2/appkgo/prod/CUSA07211_00/6/f_4d086b5fafc3f1de8a43dab5829bb61d97436e5d685236bb3d43e0edbd98178c/f/UP0082-CUSA07211_00-FFVIIREMAKE00000_16.pkg"
+  url_1: "http://gs2.ww.prod.dl.playstation.net/gs2/appkgo/prod/CUSA07211_00/6/f_4d086b5fafc3f1de8a43dab5829bb61d97436e5d685236bb3d43e0edbd98178c/f/UP0082-CUSA07211_00-FFVIIREMAKE00000_14.pkg"
   file_name_1: "UP0082-CUSA07211_00-FFVIIREMAKE00000_14.pkg"
   
-  url_2: "http://gs2.ww.prod.dl.playstation.net/gs2/appkgo/prod/CUSA07211_00/6/f_4d086b5fafc3f1de8a43dab5829bb61d97436e5d685236bb3d43e0edbd98178c/f/UP0082-CUSA07211_00-FFVIIREMAKE00000_17.pkg"
+  url_2: "http://gs2.ww.prod.dl.playstation.net/gs2/appkgo/prod/CUSA07211_00/6/f_4d086b5fafc3f1de8a43dab5829bb61d97436e5d685236bb3d43e0edbd98178c/f/UP0082-CUSA07211_00-FFVIIREMAKE00000_15.pkg"
   file_name_2: "UP0082-CUSA07211_00-FFVIIREMAKE00000_15.pkg"
   
   
