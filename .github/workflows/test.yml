@@ -5,11 +5,11 @@ on:
       - ".github/workflows/test.yml"
 
 env:
-  url_1: "http://gs2.ww.prod.dl.playstation.net/gs2/appkgo/prod/CUSA07211_00/6/f_4d086b5fafc3f1de8a43dab5829bb61d97436e5d685236bb3d43e0edbd98178c/f/UP0082-CUSA07211_00-FFVIIREMAKE00000_13.pkg"
-  file_name_1: "UP0082-CUSA07211_00-FFVIIREMAKE00000_13.pkg"
+  url_1: "http://gs2.ww.prod.dl.playstation.net/gs2/ppkgo/prod/CUSA03397_00/5/f_a94e74d99c71c8954ea8e8577df14ce6ad7979d59cde7bc60a78f0c08a82175d/f/EP1018-CUSA03397_00-LEGOFORCEAWAKENS-A0105-V0100_0.pkg"
+  file_name_1: "EP1018-CUSA03397_00-LEGOFORCEAWAKENS-A0105-V0100_0.pkg"
   
-  url_2: "http://gs2.ww.prod.dl.playstation.net/gs2/ppkgo/prod/CUSA06262_00/24/f_c9337a08171a59b6ecb18b50efbd36faa728ca1f42878cbcbe1c82e25109aa1f/f/EP1018-CUSA06262_00-LEGOWORLDS000001-A0119-V0100.pkg"
-  file_name_2: "EP1018-CUSA06262_00-LEGOWORLDS000001-A0119-V0100.pkg"
+  url_2: "http://gs2.ww.prod.dl.playstation.net/gs2/ppkgo/prod/CUSA03397_00/5/f_a94e74d99c71c8954ea8e8577df14ce6ad7979d59cde7bc60a78f0c08a82175d/f/EP1018-CUSA03397_00-LEGOFORCEAWAKENS-A0105-V0100_1.pkg"
+  file_name_2: "EP1018-CUSA03397_00-LEGOFORCEAWAKENS-A0105-V0100_1.pkg"
   
   
 jobs:
