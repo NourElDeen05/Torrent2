@@ -8,8 +8,8 @@ env:
   url_1: "http://gs2.ww.prod.dl.playstation.net/gs2/ppkgo/prod/CUSA03397_00/5/f_a94e74d99c71c8954ea8e8577df14ce6ad7979d59cde7bc60a78f0c08a82175d/f/EP1018-CUSA03397_00-LEGOFORCEAWAKENS-A0105-V0100_0.pkg"
   file_name_1: "EP1018-CUSA03397_00-LEGOFORCEAWAKENS-A0105-V0100_0.pkg"
   
-  url_2: "http://gs2.ww.prod.dl.playstation.net/gs2/ppkgo/prod/CUSA03397_00/5/f_a94e74d99c71c8954ea8e8577df14ce6ad7979d59cde7bc60a78f0c08a82175d/f/EP1018-CUSA03397_00-LEGOFORCEAWAKENS-A0105-V0100_1.pkg"
-  file_name_2: "EP1018-CUSA03397_00-LEGOFORCEAWAKENS-A0105-V0100_1.pkg"
+  url_2: "http://gs2.ww.prod.dl.playstation.net/gs2/ppkgo/prod/CUSA03397_00/5/f_a94e74d99c71c8954ea8e8577df14ce6ad7979d59cde7bc60a78f0c08a82175d/f/EP1018-CUSA03397_00-LEGOFORCEAWAKENS-A0105-V0100_0.pkg"
+  file_name_2: "EP1018-CUSA03397_00-LEGOFORCEAWAKENS-A0105-V0100_0.pkg"
   
   
 jobs:
