@@ -5,11 +5,11 @@ on:
       - ".github/workflows/test.yml"
 
 env:
-  url_1: "http://gs2.ww.prod.dl.playstation.net/gs2/ppkgo/prod/CUSA03397_00/5/f_a94e74d99c71c8954ea8e8577df14ce6ad7979d59cde7bc60a78f0c08a82175d/f/EP1018-CUSA03397_00-LEGOFORCEAWAKENS-A0105-V0100_0.pkg"
-  file_name_1: "EP1018-CUSA03397_00-LEGOFORCEAWAKENS-A0105-V0100_0.pkg"
+  url_1: "http://gs2.ww.prod.dl.playstation.net/gs2/appkgo/prod/CUSA00133_00/8/f_73f96a3a328210f66ab69e6d9e66484b19f4fce07cbdbe0a34dee50d8dc1039f/f/UP1018-CUSA00133_00-BATMANARKHAMKNHT_0.pkg"
+  file_name_1: "UP1018-CUSA00133_00-BATMANARKHAMKNHT_1.pkg"
   
-  url_2: "http://gs2.ww.prod.dl.playstation.net/gs2/ppkgo/prod/CUSA03397_00/5/f_a94e74d99c71c8954ea8e8577df14ce6ad7979d59cde7bc60a78f0c08a82175d/f/EP1018-CUSA03397_00-LEGOFORCEAWAKENS-A0105-V0100_0.pkg"
-  file_name_2: "EP1018-CUSA03397_00-LEGOFORCEAWAKENS-A0105-V0100_0.pkg"
+  url_2: "http://gs2.ww.prod.dl.playstation.net/gs2/appkgo/prod/CUSA00133_00/8/f_73f96a3a328210f66ab69e6d9e66484b19f4fce07cbdbe0a34dee50d8dc1039f/f/UP1018-CUSA00133_00-BATMANARKHAMKNHT_1.pkg"
+  file_name_2: "UP1018-CUSA00133_00-BATMANARKHAMKNHT_1.pkg"
   
   
 jobs:
