@@ -5,11 +5,11 @@ on:
       - ".github/workflows/test.yml"
 
 env:
-  url_1: "http://gs2.ww.prod.dl.playstation.net/gs2/appkgo/prod/CUSA08469_00/3/f_09edc9e9d3f950b346586c7dbc46adb2fb1aeafd504c931468a34061f2c0181a/f/UP1018-CUSA08469_00-LEGOMARVELSH2001_3.pkg"
-  file_name_1: "UP1018-CUSA08469_00-LEGOMARVELSH2001_3.pkg"
+  url_1: "http://gs2.ww.prod.dl.playstation.net/gs2/appkgo/prod/CUSA00133_00/8/f_73f96a3a328210f66ab69e6d9e66484b19f4fce07cbdbe0a34dee50d8dc1039f/f/UP1018-CUSA00133_00-BATMANARKHAMKNHT_0.pkg"
+  file_name_1: "UP1018-CUSA00133_00-BATMANARKHAMKNHT_0.pkg"
   
-  url_2: "http://gs2.ww.prod.dl.playstation.net/gs2/appkgo/prod/CUSA08469_00/3/f_09edc9e9d3f950b346586c7dbc46adb2fb1aeafd504c931468a34061f2c0181a/f/UP1018-CUSA08469_00-LEGOMARVELSH2001_4.pkg"
-  file_name_2: "UP1018-CUSA08469_00-LEGOMARVELSH2001_4.pkg"
+  url_2: "http://gs2.ww.prod.dl.playstation.net/gs2/appkgo/prod/CUSA00133_00/8/f_73f96a3a328210f66ab69e6d9e66484b19f4fce07cbdbe0a34dee50d8dc1039f/f/UP1018-CUSA00133_00-BATMANARKHAMKNHT_5.pkg"
+  file_name_2: "UP1018-CUSA00133_00-BATMANARKHAMKNHT_5.pkg"
   
   
 jobs:
