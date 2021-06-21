@@ -5,10 +5,10 @@ on:
       - ".github/workflows/mktorrent.yml"
       
 env:
-  name: "UP1018-CUSA00133_00-BATMANARKHAMKNHT_2.pkg"
-  comment: "UP1018-CUSA00133_00-BATMANARKHAMKNHT_2.pkg"
-  url: "http://gs2.ww.prod.dl.playstation.net/gs2/appkgo/prod/CUSA00133_00/8/f_73f96a3a328210f66ab69e6d9e66484b19f4fce07cbdbe0a34dee50d8dc1039f/f/UP1018-CUSA00133_00-BATMANARKHAMKNHT_2.pkg"
-  file_name: "UP1018-CUSA00133_00-BATMANARKHAMKNHT_2.pkg"
+  name: "UP0082-CUSA07211_00-FFVIIREMAKE00000_5.pkg"
+  comment: "UP0082-CUSA07211_00-FFVIIREMAKE00000_5.pkg"
+  url: "http://gs2.ww.prod.dl.playstation.net/gs2/appkgo/prod/CUSA07211_00/6/f_4d086b5fafc3f1de8a43dab5829bb61d97436e5d685236bb3d43e0edbd98178c/f/UP0082-CUSA07211_00-FFVIIREMAKE00000_5.pkg"
+  file_name: "UP0082-CUSA07211_00-FFVIIREMAKE00000_5.pkg"
   piece_size: 19 # Check the README.md for recommended piece size
   maximize_disk_space: false # Set to true if out of disk space
   
