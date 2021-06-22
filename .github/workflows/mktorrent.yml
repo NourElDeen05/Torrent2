@@ -5,10 +5,10 @@ on:
       - ".github/workflows/mktorrent.yml"
       
 env:
-  name: "UP0082-CUSA07211_00-FFVIIREMAKE00000_5.pkg"
-  comment: "UP0082-CUSA07211_00-FFVIIREMAKE00000_5.pkg"
-  url: "http://gs2.ww.prod.dl.playstation.net/gs2/appkgo/prod/CUSA07211_00/6/f_4d086b5fafc3f1de8a43dab5829bb61d97436e5d685236bb3d43e0edbd98178c/f/UP0082-CUSA07211_00-FFVIIREMAKE00000_5.pkg"
-  file_name: "UP0082-CUSA07211_00-FFVIIREMAKE00000_5.pkg"
+  name: "EP1004-CUSA00411_00-GTAVDIGITALDOWNL-A0137-V0100_0.pkg"
+  comment: "EP1004-CUSA00411_00-GTAVDIGITALDOWNL-A0137-V0100_0.pkg"
+  url: "http://gs2.ww.prod.dl.playstation.net/gs2/ppkgo/prod/CUSA00411_00/51/f_12f094c61af342ee15569084095b735887a7179e3ef6016450ef5079591ad2cb/f/EP1004-CUSA00411_00-GTAVDIGITALDOWNL-A0137-V0100_0.pkg"
+  file_name: "EP1004-CUSA00411_00-GTAVDIGITALDOWNL-A0137-V0100_0.pkg"
   piece_size: 19 # Check the README.md for recommended piece size
   maximize_disk_space: false # Set to true if out of disk space
   
