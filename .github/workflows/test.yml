@@ -5,11 +5,11 @@ on:
       - ".github/workflows/test.yml"
 
 env:
-  url_1: "http://gs2.ww.prod.dl.playstation.net/gs2/appkgo/prod/CUSA00133_00/8/f_73f96a3a328210f66ab69e6d9e66484b19f4fce07cbdbe0a34dee50d8dc1039f/f/UP1018-CUSA00133_00-BATMANARKHAMKNHT_7.pkg"
-  file_name_1: "UP1018-CUSA00133_00-BATMANARKHAMKNHT_7.pkg"
+  url_1: "http://gs2.ww.prod.dl.playstation.net/gs2/appkgo/prod/CUSA00133_00/8/f_73f96a3a328210f66ab69e6d9e66484b19f4fce07cbdbe0a34dee50d8dc1039f/f/UP1018-CUSA00133_00-BATMANARKHAMKNHT_10.pkg"
+  file_name_1: "UP1018-CUSA00133_00-BATMANARKHAMKNHT_10.pkg"
   
-  url_2: "http://gs2.ww.prod.dl.playstation.net/gs2/appkgo/prod/CUSA00133_00/8/f_73f96a3a328210f66ab69e6d9e66484b19f4fce07cbdbe0a34dee50d8dc1039f/f/UP1018-CUSA00133_00-BATMANARKHAMKNHT_8.pkg"
-  file_name_2: "UP1018-CUSA00133_00-BATMANARKHAMKNHT_8.pkg"
+  url_2: "http://gs2.ww.prod.dl.playstation.net/gs2/appkgo/prod/CUSA00133_00/8/f_73f96a3a328210f66ab69e6d9e66484b19f4fce07cbdbe0a34dee50d8dc1039f/f/UP1018-CUSA00133_00-BATMANARKHAMKNHT_11.pkg"
+  file_name_2: "UP1018-CUSA00133_00-BATMANARKHAMKNHT_11.pkg"
   
   
 jobs:
