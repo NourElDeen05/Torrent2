@@ -5,10 +5,10 @@ on:
       - ".github/workflows/mktorrent.yml"
       
 env:
-  name: "EP0082-CUSA00109_00-000000TOMBRAIDER_1.pkg"
-  comment: "EP0082-CUSA00109_00-000000TOMBRAIDER_1.pkg"
-  url: "http://gs2.ww.prod.dl.playstation.net/gs2/appkgo/prod/CUSA00109_00/3/f_d6e0d4792d6ec715759522e5936ec2398d160dc513787feff1be6ad117032ad0/f/EP0082-CUSA00109_00-000000TOMBRAIDER_1.pkg"
-  file_name: "EP0082-CUSA00109_00-000000TOMBRAIDER_1.pkg"
+  name: "EP0082-CUSA12089_00-SHADOWTOMBRAIDER-A0201-V0101_2.pkg"
+  comment: "EP0082-CUSA12089_00-SHADOWTOMBRAIDER-A0201-V0101_2.pkg"
+  url: "http://gs2.ww.prod.dl.playstation.net/gs2/ppkgo/prod/CUSA12089_00/24/f_6359469d8c29c53c0bfc6a141bab877fcc4add4f910b47b7bf00e37825a25593/f/EP0082-CUSA12089_00-SHADOWTOMBRAIDER-A0201-V0101_2.pkg"
+  file_name: "EP0082-CUSA12089_00-SHADOWTOMBRAIDER-A0201-V0101_2.pkg"
   piece_size: 19 # Check the README.md for recommended piece size
   maximize_disk_space: false # Set to true if out of disk space
   
