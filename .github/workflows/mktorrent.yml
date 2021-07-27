@@ -5,10 +5,10 @@ on:
       - ".github/workflows/mktorrent.yml"
       
 env:
-  name: "101.Dalmatians.1961720p.BluRay_Cima4U.mp4"
-  comment: "101.Dalmatians.1961720p.BluRay_Cima4U.mp4"
-  url: "https://s67.uppboom.com:82/d/4jr32qbxbgeyf3tkoeojb7kmoyobdyg5kqiaobxkdniyd7ei7l7uwjomac5spuo7zyp47f2q/101.Dalmatians.1961720p.BluRay_Cima4U.mp4"
-  file_name: "101.Dalmatians.1961720p.BluRay_Cima4U.mp4"
+  name: "101_DALMATIANS_II_PATCHS_LONDON_ADVENTURE.AR.mp4"
+  comment: "101_DALMATIANS_II_PATCHS_LONDON_ADVENTURE.AR.mp4"
+  url: "https://m4.uppboom.com:82/d/tbrs6jb7bgeyf3tktqozp7i3fwwwmmy2trve4eavdiamam3xsosusavnvku56zswr6vgqfq3/101_DALMATIANS_II_PATCHS_LONDON_ADVENTURE.AR.mp4"
+  file_name: "101_DALMATIANS_II_PATCHS_LONDON_ADVENTURE.AR.mp4"
   piece_size: 19 # Check the README.md for recommended piece size
   maximize_disk_space: false # Set to true if out of disk space
   
