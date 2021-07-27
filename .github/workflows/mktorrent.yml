@@ -5,10 +5,10 @@ on:
       - ".github/workflows/mktorrent.yml"
       
 env:
-  name: "RATATOUILLE_2007.Cima4U.mp4"
-  comment: "RATATOUILLE_2007.Cima4U.mp4"
-  url: "https://s66.uppboom.com:82/d/5zrun3rlbgeyf3tkayoip2akpbtkxlq5tzt6qkfytroiil4bbrwhlim5lmbgtri44dyiassv/RATATOUILLE_2007.Cima4U.mp4"
-  file_name: "RATATOUILLE_2007.Cima4U.mp4"
+  name: "101.Dalmatians.1961720p.BluRay_Cima4U.mp4"
+  comment: "101.Dalmatians.1961720p.BluRay_Cima4U.mp4"
+  url: "https://s67.uppboom.com:82/d/4jr32qbxbgeyf3tkoeojb7kmoyobdyg5kqiaobxkdniyd7ei7l7uwjomac5spuo7zyp47f2q/101.Dalmatians.1961720p.BluRay_Cima4U.mp4"
+  file_name: "101.Dalmatians.1961720p.BluRay_Cima4U.mp4"
   piece_size: 19 # Check the README.md for recommended piece size
   maximize_disk_space: false # Set to true if out of disk space
   
