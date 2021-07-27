@@ -5,10 +5,10 @@ on:
       - ".github/workflows/mktorrent.yml"
       
 env:
-  name: "101_DALMATIANS_II_PATCHS_LONDON_ADVENTURE.AR.mp4"
-  comment: "101_DALMATIANS_II_PATCHS_LONDON_ADVENTURE.AR.mp4"
-  url: "https://m4.uppboom.com:82/d/tbrs6jb7bgeyf3tktqozp7i3fwwwmmy2trve4eavdiamam3xsosusavnvku56zswr6vgqfq3/101_DALMATIANS_II_PATCHS_LONDON_ADVENTURE.AR.mp4"
-  file_name: "101_DALMATIANS_II_PATCHS_LONDON_ADVENTURE.AR.mp4"
+  name: "Toy Story 1.mp4"
+  comment: "Toy Story 1.mp4"
+  url: "https://s65.uppboom.com:82/d/5frs4rrnbgeyf3tkeyojl5qjo3dkscvoghgrupmckaghibhdo5chffzcpfc574235wle6nfj/Toy.Story.1.1995-Ar.Cima4U.mp4"
+  file_name: "Toy Story 1.mp4"
   piece_size: 19 # Check the README.md for recommended piece size
   maximize_disk_space: false # Set to true if out of disk space
   
