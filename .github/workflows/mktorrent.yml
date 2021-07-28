@@ -5,10 +5,10 @@ on:
       - ".github/workflows/mktorrent.yml"
       
 env:
-  name: "Toy Story 2.mp4"
-  comment: "Toy Story 2.mp4"
-  url: "https://s65.uppboom.com:82/d/5frs6rrnbgeyf3tkeyoir6imfewc4zxteakdibxsnadd46djrkg7wp7jz23zdq4q2gf64qen/Toy.Story.2.1999-Ar.Cima4U.mp4"
-  file_name: "Toy Story 2.mp4"
+  name: "Kronk's New Groove 2.mp4"
+  comment: "Kronk's New Groove 2.mp4"
+  url: "https://m1.uppboom.com:82/d/sfrxdabxbgeyf3tkp4onf3cpp7modyjlsh3cvc5i5k52dltem2mtyacgwudcpsbk53wigbjl/Kronk_s.New.Groove.2005_Cima4U.mp4"
+  file_name: "Kronk's New Groove 2.mp4"
   piece_size: 19 # Check the README.md for recommended piece size
   maximize_disk_space: false # Set to true if out of disk space
   
