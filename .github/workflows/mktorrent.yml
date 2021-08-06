@@ -5,10 +5,10 @@ on:
       - ".github/workflows/mktorrent.yml"
       
 env:
-  name: "The Emperor's New Groove 1.mp4"
-  comment: "The Emperor's New Groove 1.mp4"
-  url: "https://s51.uppboom.com:82/d/t5rq5azxbgeyf3tkp4oi5lavnnxtlorn7nxnybcrs2u4s7egj3ykxk3qwq6m4a5kkkykwmvy/The.Emperor_s.New.Groove.2000_Cima4U.mp4"
-  file_name: "The Emperor's New Groove 1.mp4"
+  name: "UP0006-CUSA10863_00-PVZGW3BASEGAME00_2.pkg"
+  comment: "UP0006-CUSA10863_00-PVZGW3BASEGAME00_2.pkg"
+  url: "http://gs2.ww.prod.dl.playstation.net/gs2/appkgo/prod/CUSA10863_00/3/f_4cb128c832ebe9c5a7085a97010fc8a45236b1bbe1f3f86ab59423d115062811/f/UP0006-CUSA10863_00-PVZGW3BASEGAME00_2.pkg"
+  file_name: "UP0006-CUSA10863_00-PVZGW3BASEGAME00_2.pkg"
   piece_size: 19 # Check the README.md for recommended piece size
   maximize_disk_space: false # Set to true if out of disk space
   
