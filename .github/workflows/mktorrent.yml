@@ -5,10 +5,10 @@ on:
       - ".github/workflows/mktorrent.yml"
       
 env:
-  name: "UP9000-CUSA08966_00-DAYSGONECOMPLETE-A0170-V0100_2.pkg"
-  comment: "UP9000-CUSA08966_00-DAYSGONECOMPLETE-A0170-V0100_2.pkg"
-  url: "http://gs2.ww.prod.dl.playstation.net/gs2/ppkgo/prod/CUSA08966_00/38/f_75cf96ba0907731b5338b040a4122b64f3cf4be5c6def5b2b55eee8c4d971a39/f/UP9000-CUSA08966_00-DAYSGONECOMPLETE-A0170-V0100_2.pkg"
-  file_name: "UP9000-CUSA08966_00-DAYSGONECOMPLETE-A0170-V0100_2.pkg"
+  name: "UP4572-CUSA12421_00-HITMANGAME000002-A0122-V0100_2.pkg"
+  comment: "UP4572-CUSA12421_00-HITMANGAME000002-A0122-V0100_2.pkg"
+  url: "http://gs2.ww.prod.dl.playstation.net/gs2/ppkgo/prod/CUSA12421_00/22/f_0b3e5066bd62f6b9513d1d058ee5b161305775d52c4685b2780940ffb803317f/f/UP4572-CUSA12421_00-HITMANGAME000002-A0122-V0100_2.pkg"
+  file_name: "UP4572-CUSA12421_00-HITMANGAME000002-A0122-V0100_2.pkg"
   piece_size: 19 # Check the README.md for recommended piece size
   maximize_disk_space: false # Set to true if out of disk space
   
