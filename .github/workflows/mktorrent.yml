@@ -5,10 +5,10 @@ on:
       - ".github/workflows/mktorrent.yml"
       
 env:
-  name: "UP4572-CUSA12421_00-HITMANGAME000002-A0122-V0100_2.pkg"
-  comment: "UP4572-CUSA12421_00-HITMANGAME000002-A0122-V0100_2.pkg"
-  url: "http://gs2.ww.prod.dl.playstation.net/gs2/ppkgo/prod/CUSA12421_00/22/f_0b3e5066bd62f6b9513d1d058ee5b161305775d52c4685b2780940ffb803317f/f/UP4572-CUSA12421_00-HITMANGAME000002-A0122-V0100_2.pkg"
-  file_name: "UP4572-CUSA12421_00-HITMANGAME000002-A0122-V0100_2.pkg"
+  name: "UP0002-CUSA11100_00-CODBO4THEGAME001-A0126-V0100_13.pkg"
+  comment: "UP0002-CUSA11100_00-CODBO4THEGAME001-A0126-V0100_13.pkg"
+  url: "http://gs2.ww.prod.dl.playstation.net/gs2/ppkgo/prod/CUSA11100_00/32/f_bbeb3550092b85a585fcfaf873a0957a43a3b3a40d327a903e082d3270535760/f/UP0002-CUSA11100_00-CODBO4THEGAME001-A0126-V0100_13.pkg"
+  file_name: "UP0002-CUSA11100_00-CODBO4THEGAME001-A0126-V0100_13.pkg"
   piece_size: 19 # Check the README.md for recommended piece size
   maximize_disk_space: false # Set to true if out of disk space
   
