@@ -5,10 +5,10 @@ on:
       - ".github/workflows/mktorrent.yml"
       
 env:
-  name: "UP0002-CUSA11100_00-CODBO4THEGAME001-A0126-V0100_13.pkg"
-  comment: "UP0002-CUSA11100_00-CODBO4THEGAME001-A0126-V0100_13.pkg"
-  url: "http://gs2.ww.prod.dl.playstation.net/gs2/ppkgo/prod/CUSA11100_00/32/f_bbeb3550092b85a585fcfaf873a0957a43a3b3a40d327a903e082d3270535760/f/UP0002-CUSA11100_00-CODBO4THEGAME001-A0126-V0100_13.pkg"
-  file_name: "UP0002-CUSA11100_00-CODBO4THEGAME001-A0126-V0100_13.pkg"
+  name: "EP9001-CUSA02168_00-GTSPORT000000000-A0166-V0100_1.pkg"
+  comment: "EP9001-CUSA02168_00-GTSPORT000000000-A0166-V0100_1.pkg"
+  url: "http://gs2.ww.prod.dl.playstation.net/gs2/ppkgo/prod/CUSA02168_00/91/f_471e306f3131bc70694978ace91b72e212136b61f0ffad3b34b44ca4bfe78e91/f/EP9001-CUSA02168_00-GTSPORT000000000-A0166-V0100_1.pkg"
+  file_name: "EP9001-CUSA02168_00-GTSPORT000000000-A0166-V0100_1.pkgg"
   piece_size: 19 # Check the README.md for recommended piece size
   maximize_disk_space: false # Set to true if out of disk space
   
