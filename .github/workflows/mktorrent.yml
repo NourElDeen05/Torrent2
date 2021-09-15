@@ -5,10 +5,10 @@ on:
       - ".github/workflows/mktorrent.yml"
       
 env:
-  name: "UP1018-CUSA00103_00-MADMAXTHEGAME001-A0106-V0100_7.pkg"
-  comment: "UP1018-CUSA00103_00-MADMAXTHEGAME001-A0106-V0100_7.pkg"
-  url: "http://gs2.ww.prod.dl.playstation.net/gs2/ppkgo/prod/CUSA00103_00/7/f_7de92e4fe6dc19209b40361a19924fe3ae6797c486627b3fe5abb1ca9690fe61/f/UP1018-CUSA00103_00-MADMAXTHEGAME001-A0106-V0100_7.pkg"
-  file_name: "UP1018-CUSA00103_00-MADMAXTHEGAME001-A0106-V0100_7.pkg"
+  name: "EP1018-CUSA11379_00-00MORTALKOMBAT11-A0127-V0100_0.pkg"
+  comment: "EP1018-CUSA11379_00-00MORTALKOMBAT11-A0127-V0100_0.pkg"
+  url: "http://gs2.ww.prod.dl.playstation.net/gs2/ppkgo/prod/CUSA11379_00/27/f_7fab4ebf94668a4f9c87a77b2b15d7a9eb2cafc7ba3b90b39b3887671942c95f/f/EP1018-CUSA11379_00-00MORTALKOMBAT11-A0127-V0100_0.pkg"
+  file_name: "EP1018-CUSA11379_00-00MORTALKOMBAT11-A0127-V0100_0.pkg"
   piece_size: 19 # Check the README.md for recommended piece size
   maximize_disk_space: false # Set to true if out of disk space
   
