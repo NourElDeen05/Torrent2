@@ -5,9 +5,9 @@ on:
       - ".github/workflows/mktorrent.yml"
       
 env:
-  name: "UP1018-CUSA00103_00-MADMAXTHEGAME001-A0106-V0100_0.pkg"
-  comment: "http://gs2.ww.prod.dl.playstation.net/gs2/ppkgo/prod/CUSA00103_00/7/f_7de92e4fe6dc19209b40361a19924fe3ae6797c486627b3fe5abb1ca9690fe61/f/UP1018-CUSA00103_00-MADMAXTHEGAME001-A0106-V0100_0.pkg"
-  file_name: "UP1018-CUSA00103_00-MADMAXTHEGAME001-A0106-V0100_0.pkg"
+  name: "UP1018-CUSA00103_00-MADMAXTHEGAME001-A0106-V0100_1.pkg"
+  comment: "http://gs2.ww.prod.dl.playstation.net/gs2/ppkgo/prod/CUSA00103_00/7/f_7de92e4fe6dc19209b40361a19924fe3ae6797c486627b3fe5abb1ca9690fe61/f/UP1018-CUSA00103_00-MADMAXTHEGAME001-A0106-V0100_1.pkg"
+  file_name: "UP1018-CUSA00103_00-MADMAXTHEGAME001-A0106-V0100_1.pkg"
   piece_size: 19 # Check the README.md for recommended piece size
   maximize_disk_space: false # Set to true if out of disk space
   
