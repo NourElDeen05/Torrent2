@@ -5,10 +5,10 @@ on:
       - ".github/workflows/mktorrent.yml"
       
 env:
-  name: "UP4572-CUSA12421_00-DLC0000000000012_0.pkg"
-  comment: "UP4572-CUSA12421_00-DLC0000000000012_0.pkg"
-  url: "http://gs2.ww.prod.dl.playstation.net/gs2/acpkgo/prod/CUSA12421_00/15/f_d504ac91cd15afb17fddf01e31c2e5d7f17ba84700c6ff21a8c1bd98c4a243c7/f/UP4572-CUSA12421_00-DLC0000000000012_0.pkg"
-  file_name: "UP4572-CUSA12421_00-DLC0000000000012_0.pkg"
+  name: "UP4572-CUSA12421_00-DLC0000000000010_1.pkg"
+  comment: "UP4572-CUSA12421_00-DLC0000000000010_1.pkg"
+  url: "http://gs2.ww.prod.dl.playstation.net/gs2/acpkgo/prod/CUSA12421_00/4/f_4e9d7a76776bdd6847d599d328340eb5c2bd9db3dc798c0cae6ec1865a62368e/f/UP4572-CUSA12421_00-DLC0000000000010_1.pkg"
+  file_name: "UP4572-CUSA12421_00-DLC0000000000010_1.pkg"
   piece_size: 19 # Check the README.md for recommended piece size
   maximize_disk_space: false # Set to true if out of disk space
   
