@@ -5,10 +5,10 @@ on:
       - ".github/workflows/mktorrent.yml"
       
 env:
-  name: "UP4572-CUSA12421_00-DLCSNIPER0000001.pkg"
-  comment: "UP4572-CUSA12421_00-DLCSNIPER0000001.pkg"
-  url: "http://gs2.ww.prod.dl.playstation.net/gs2/acpkgo/prod/CUSA12421_00/5/f_c53d5bcec3900212edfddcb18a51e066c18d267bb153f0b73812ae7e4771f191/f/UP4572-CUSA12421_00-DLCSNIPER0000001.pkg"
-  file_name: "UP4572-CUSA12421_00-DLCSNIPER0000001.pkg"
+  name: "UP4572-CUSA12421_00-DLC0000000000009_0.pkg"
+  comment: "UP4572-CUSA12421_00-DLC0000000000009_0.pkg"
+  url: "http://gs2.ww.prod.dl.playstation.net/gs2/acpkgo/prod/CUSA12421_00/3/f_fbd6b20ca0de25e12a4ce407c27e493ddc23aa1c9eda217bdca9f92f1b5deff7/f/UP4572-CUSA12421_00-DLC0000000000009_0.pkg"
+  file_name: "UP4572-CUSA12421_00-DLC0000000000009_0.pkg"
   piece_size: 19 # Check the README.md for recommended piece size
   maximize_disk_space: false # Set to true if out of disk space
   
