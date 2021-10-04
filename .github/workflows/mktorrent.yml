@@ -5,10 +5,10 @@ on:
       - ".github/workflows/mktorrent.yml"
       
 env:
-  name: "UP0006-CUSA08724_00-BATTLEFIELDV0000-A0138-V0100_4.pkg"
-  comment: "UP0006-CUSA08724_00-BATTLEFIELDV0000-A0138-V0100_4.pkg"
-  url: "http://gs2.ww.prod.dl.playstation.net/gs2/ppkgo/prod/CUSA08724_00/44/f_b33e429644fac27b7638dee1d00d851f5a09c2a8e920da8e0e9ae5b1491b153f/f/UP0006-CUSA08724_00-BATTLEFIELDV0000-A0138-V0100_4.pkg"
-  file_name: "UP0006-CUSA08724_00-BATTLEFIELDV0000-A0138-V0100_4.pkg"
+  name: "UP0006-CUSA08724_00-BATTLEFIELDV0000-A0138-V0100_5.pkg"
+  comment: "UP0006-CUSA08724_00-BATTLEFIELDV0000-A0138-V0100_5.pkg"
+  url: "http://gs2.ww.prod.dl.playstation.net/gs2/ppkgo/prod/CUSA08724_00/44/f_b33e429644fac27b7638dee1d00d851f5a09c2a8e920da8e0e9ae5b1491b153f/f/UP0006-CUSA08724_00-BATTLEFIELDV0000-A0138-V0100_5.pkg"
+  file_name: "UP0006-CUSA08724_00-BATTLEFIELDV0000-A0138-V0100_5.pkg"
   piece_size: 19 # Check the README.md for recommended piece size
   maximize_disk_space: false # Set to true if out of disk space
   
