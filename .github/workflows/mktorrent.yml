@@ -5,10 +5,10 @@ on:
       - ".github/workflows/mktorrent.yml"
       
 env:
-  name: "UP4008-CUSA23446_00-TWT2SIEA00000000-A0113-V0100_0.pkg"
-  comment: "UP4008-CUSA23446_00-TWT2SIEA00000000-A0113-V0100_0.pkg"
-  url: "http://gs2.ww.prod.dl.playstation.net/gs2/ppkgo/prod/CUSA23446_00/15/f_a6c82cbd394e3cbfbc5096ef3c02ef194acab5bc9c92962339baaa102fe66139/f/UP4008-CUSA23446_00-TWT2SIEA00000000-A0113-V0100_0.pkg"
-  file_name: "UP4008-CUSA23446_00-TWT2SIEA00000000-A0113-V0100_0.pkg"
+  name: "EP9000-CUSA15027_00-DAYSGONECOMPLETE-A0180-V0100_2.pkg"
+  comment: "EP9000-CUSA15027_00-DAYSGONECOMPLETE-A0180-V0100_2.pkg"
+  url: "http://gs2.ww.prod.dl.playstation.net/gs2/ppkgo/prod/CUSA15027_00/33/f_a1d85b5df747025ecccd246b748422119df968d0241fac781efb2d696b7d6e40/f/EP9000-CUSA15027_00-DAYSGONECOMPLETE-A0180-V0100_2.pkg"
+  file_name: "EP9000-CUSA15027_00-DAYSGONECOMPLETE-A0180-V0100_2.pkg"
   piece_size: 19 # Check the README.md for recommended piece size
   maximize_disk_space: false # Set to true if out of disk space
   
