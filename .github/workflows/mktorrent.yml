@@ -5,10 +5,10 @@ on:
       - ".github/workflows/mktorrent.yml"
       
 env:
-  name: "EP9000-CUSA15027_00-DAYSGONECOMPLETE-A0180-V0100_2.pkg"
-  comment: "EP9000-CUSA15027_00-DAYSGONECOMPLETE-A0180-V0100_2.pkg"
-  url: "http://gs2.ww.prod.dl.playstation.net/gs2/ppkgo/prod/CUSA15027_00/33/f_a1d85b5df747025ecccd246b748422119df968d0241fac781efb2d696b7d6e40/f/EP9000-CUSA15027_00-DAYSGONECOMPLETE-A0180-V0100_2.pkg"
-  file_name: "EP9000-CUSA15027_00-DAYSGONECOMPLETE-A0180-V0100_2.pkg"
+  name: "_AnimeZid.com_.The.Mitchells.vs.The.Machines.2021.NF.WEB-DL.1080.Dubbed.Ar.mp4"
+  comment: "_AnimeZid.com_.The.Mitchells.vs.The.Machines.2021.NF.WEB-DL.1080.Dubbed.Ar.mp4"
+  url: "https://s59.uppboom.com:82/d/s5rt36b7bgeyf3tk4aoy3k2nndv5fv5zroitsrreb6n6cyi3j5l6fxj6netqie7s7fv3gwxy/_AnimeZid.com_.The.Mitchells.vs.The.Machines.2021.NF.WEB-DL.1080.Dubbed.Ar.mp4"
+  file_name: "_AnimeZid.com_.The.Mitchells.vs.The.Machines.2021.NF.WEB-DL.1080.Dubbed.Ar.mp4"
   piece_size: 19 # Check the README.md for recommended piece size
   maximize_disk_space: false # Set to true if out of disk space
   
