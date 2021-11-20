@@ -5,10 +5,10 @@ on:
       - ".github/workflows/mktorrent.yml"
       
 env:
-  name: "_AnimeZid.com_.The.Mitchells.vs.The.Machines.2021.NF.WEB-DL.1080.Dubbed.Ar.mp4"
-  comment: "_AnimeZid.com_.The.Mitchells.vs.The.Machines.2021.NF.WEB-DL.1080.Dubbed.Ar.mp4"
-  url: "https://s59.uppboom.com:82/d/s5rt36b7bgeyf3tk4aoy3k2nndv5fv5zroitsrreb6n6cyi3j7xp3bytcyzzsizqjzabo6o5/_AnimeZid.com_.The.Mitchells.vs.The.Machines.2021.NF.WEB-DL.1080.Dubbed.Ar.mp4"
-  file_name: "_AnimeZid.com_.The.Mitchells.vs.The.Machines.2021.NF.WEB-DL.1080.Dubbed.Ar.mp4"
+  name: "UP4389-CUSA17271_00-KOARECKONINGDEUS_2.pkg"
+  comment: "UP4389-CUSA17271_00-KOARECKONINGDEUS_2.pkg"
+  url: "http://gs2.ww.prod.dl.playstation.net/gs2/appkgo/prod/CUSA17271_00/4/f_8b490a439471cc3a1db0c93396abf157bb1b91700ab350bf6a6caf50f92132f0/f/UP4389-CUSA17271_00-KOARECKONINGDEUS_2.pkg"
+  file_name: "UP4389-CUSA17271_00-KOARECKONINGDEUS_2.pkg"
   piece_size: 19 # Check the README.md for recommended piece size
   maximize_disk_space: false # Set to true if out of disk space
   
