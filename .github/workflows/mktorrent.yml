@@ -5,10 +5,10 @@ on:
       - ".github/workflows/mktorrent.yml"
       
 env:
-  name: "UP0134-CUSA26040_00-FIRSTCLASSTROUBL-A0102-V0100_1.pkg"
-  comment: "UP0134-CUSA26040_00-FIRSTCLASSTROUBL-A0102-V0100_1.pkg"
-  url: "http://gs2.ww.prod.dl.playstation.net/gs2/ppkgo/prod/CUSA26040_00/2/f_12941fe4d3b8f2eda553e96144ed55a9dc30a6486a8e4214241caf134a42a38b/f/UP0134-CUSA26040_00-FIRSTCLASSTROUBL-A0102-V0100_1.pkg"
-  file_name: "UP0134-CUSA26040_00-FIRSTCLASSTROUBL-A0102-V0100_1.pkg"
+  name: "UP0134-CUSA26040_00-FIRSTCLASSTROUBL_1.pkg"
+  comment: "UP0134-CUSA26040_00-FIRSTCLASSTROUBL_1.pkg"
+  url: "http://gs2.ww.prod.dl.playstation.net/gs2/appkgo/prod/CUSA26040_00/5/f_afa4b7dcda13950e4866c78e0c7fda1a71b7bcf9fb1adf887811549cb5da05b0/f/UP0134-CUSA26040_00-FIRSTCLASSTROUBL_1.pkg"
+  file_name: "UP0134-CUSA26040_00-FIRSTCLASSTROUBL_1.pkg"
   piece_size: 19 # Check the README.md for recommended piece size
   maximize_disk_space: false # Set to true if out of disk space
   
