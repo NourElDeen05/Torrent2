@@ -5,10 +5,10 @@ on:
       - ".github/workflows/mktorrent.yml"
       
 env:
-  name: "The.Three.Caballeros.1944.BluRay.x264.1080p.Dubbed.Ar_SamaUp.mp4"
-  comment: "The.Three.Caballeros.1944.BluRay.x264.1080p.Dubbed.Ar_SamaUp.mp4"
-  url: "https://f1.file-upload.download:183/d/rmxkpbbonlgpv7w7n27y2gs5s2nmatdomqyjm652p7qdg7h76hiyicne77zytkj6gg322mnv/The.Three.Caballeros.1944.BluRay.x264.1080p.Dubbed.Ar.mp4"
-  file_name: "The.Three.Caballeros.1944.BluRay.x264.1080p.Dubbed.Ar_SamaUp.mp4"
+  name: "Ralph.Breaks.the.Internet.2018.BluRay.1080p.Dubbed.Ar.V2.mp4"
+  comment: "Ralph.Breaks.the.Internet.2018.BluRay.1080p.Dubbed.Ar.V2.mp4"
+  url: "https://f6.file-upload.download:183/d/quxpjqbpnlgpv7w7pc7y2gkoydvzty667tou6t324ix7ueiuyj4grceldxznyefd7yrrp3du/Ralph.Breaks.the.Internet.2018.BluRay.1080p.Dubbed.Ar.V2.mp4"
+  file_name: "Ralph.Breaks.the.Internet.2018.BluRay.1080p.Dubbed.Ar.V2.mp4"
   piece_size: 19 # Check the README.md for recommended piece size
   maximize_disk_space: false # Set to true if out of disk space
   
