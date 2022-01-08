@@ -7,7 +7,7 @@ on:
 env:
   name: "The.Three.Caballeros.1944.BluRay.x264.1080p.Dubbed.Ar_SamaUp.mp4"
   comment: "The.Three.Caballeros.1944.BluRay.x264.1080p.Dubbed.Ar_SamaUp.mp4"
-  url: "https://f1.file-upload.download:183/d/rmxkpbbonlgpv7w7n27y2gs5s2nmatdomqyjm652p7qgw4um5szdjeaapshs5f4w7ec7q5qg/The.Three.Caballeros.1944.BluRay.x264.1080p.Dubbed.Ar.mp4"
+  url: "https://f1.file-upload.download:183/d/rmxkpbbonlgpv7w7n27y2gs5s2nmatdomqyjm652p7qgvbxhczjeqqghbtu32kaxornxaivc/The.Three.Caballeros.1944.BluRay.x264.1080p.Dubbed.Ar.mp4"
   file_name: "The.Three.Caballeros.1944.BluRay.x264.1080p.Dubbed.Ar_SamaUp.mp4"
   piece_size: 19 # Check the README.md for recommended piece size
   maximize_disk_space: false # Set to true if out of disk space
