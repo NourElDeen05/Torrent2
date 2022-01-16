@@ -5,10 +5,10 @@ on:
       - ".github/workflows/mktorrent.yml"
       
 env:
-  name: "UP0082-CUSA10938_00-SHADOWTOMBRAIDER-A0201-V0101_1.pkg"
-  comment: "UP0082-CUSA10938_00-SHADOWTOMBRAIDER-A0201-V0101_1.pkg"
-  url: "http://gs2.ww.prod.dl.playstation.net/gs2/ppkgo/prod/CUSA10938_00/24/f_f876c05bfb7dcca267c25e6e05734241e71fa0e73883cb02d76824004b6542fe/f/UP0082-CUSA10938_00-SHADOWTOMBRAIDER-A0201-V0101_1.pkg"
-  file_name: "UP0082-CUSA10938_00-SHADOWTOMBRAIDER-A0201-V0101_1.pkg"
+  name: "[AnimeZid.com].The.Swan.Princess.1994.BluRay.1080p.Dubbed.Ar.mp4"
+  comment: "[AnimeZid.com].The.Swan.Princess.1994.BluRay.1080p.Dubbed.Ar.mp4"
+  url: "https://f1.file-upload.download:183/d/rmxakxrjnlgpv7w7eg75maswsdlcrj5csby4bjeyblz62a6ciettsy5u3zkojfdzmk2hyn6n/[AnimeZid.com].The.Swan.Princess.1994.BluRay.1080p.Dubbed.Ar.mp4"
+  file_name: "[AnimeZid.com].The.Swan.Princess.1994.BluRay.1080p.Dubbed.Ar.mp4"
   piece_size: 19 # Check the README.md for recommended piece size
   maximize_disk_space: false # Set to true if out of disk space
   
