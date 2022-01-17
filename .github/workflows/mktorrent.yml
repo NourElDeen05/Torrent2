@@ -7,7 +7,7 @@ on:
 env:
   name: "[AnimeZid.com].The.Swan.Princess.1994.BluRay.1080p.Dubbed.Ar.mp4"
   comment: "[AnimeZid.com].The.Swan.Princess.1994.BluRay.1080p.Dubbed.Ar.mp4"
-  url: "https://f1.file-upload.download:183/d/rmxakxrjnlgpv7w7eg75maswsdlcrj5csby4bjeyblz62a6ciettsy5u3zkojfdzmk2hyn6n/[AnimeZid.com].The.Swan.Princess.1994.BluRay.1080p.Dubbed.Ar.mp4"
+  url: "https://cdn-101.bayfiles.com/h631Een2xa/ac48af2a-1642410806/[AnimeZid.com].The.Swan.Princess.1994.BluRay.1080p.Dubbed.Ar.mp4"
   file_name: "[AnimeZid.com].The.Swan.Princess.1994.BluRay.1080p.Dubbed.Ar.mp4"
   piece_size: 19 # Check the README.md for recommended piece size
   maximize_disk_space: false # Set to true if out of disk space
