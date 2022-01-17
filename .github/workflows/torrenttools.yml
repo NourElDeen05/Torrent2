@@ -5,8 +5,8 @@ on:
       - ".github/workflows/torrenttools.yml"
       
 env:
-  name: "[AnimeZid.com].The.Swan.Princess.1994.BluRay.1080p.Dubbed.Ar.mp4"
-  comment: "[AnimeZid.com].The.Swan.Princess.1994.BluRay.1080p.Dubbed.Ar.mp4"
+  name: "file1"
+  comment: "file2"
   url: "https://cdn-130.anonfiles.com/Ha35E1n8x9/2bb583de-1642413892/[AnimeZid.com].The.Swan.Princess.1994.BluRay.1080p.Dubbed.Ar.mp4"
   file_name: "Firefox Setup 88.0.exe"
   piece_size: auto # auto for automatic calculation, or use the recommended piece size on the README.md file
