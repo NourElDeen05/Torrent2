@@ -6,9 +6,9 @@ on:
       
 env:
   name: "file1"
-  comment: "[AnimeZid.com].Despicable.Me.3.2017.BluRay.1080.Dubbed.Ar.mp4"
-  url: "https://www61.uptobox.com/dl/67-kQt_OF-jVVx79of_lLEjSLnTl4jN4GSzbMEqTVL5ciCDAc6E8k8BbBjIqwOJ6y4FBrR-M-voKnwEATAbDW1KtRYlj1xzKTPFd1m-onV6357yyHz5fdiMnBM--KymyXl6M4tJiJ6A89e4a-xx-sg/%5BAnimeZid.com%5D.Despicable.Me.3.2017.BluRay.1080.Dubbed.Ar.mp4"
-  file_name: "[AnimeZid.com].Despicable.Me.3.2017.BluRay.1080.Dubbed.Ar.mp4"
+  comment: "[AnimeZid.com].Princess.Mononoke.1997.BluRay.1080p.Dubbed.Ar.mp4"
+  url: "https://fs4.cdnrobot.xyz/35gYn/[AnimeZid.com].Princess.Mononoke.1997.BluRay.1080p.Dubbed.Ar.mp4?download_token=4e086ddb4fcc52a6193fe8b584114dac9c2826fd835f64a264770e4f123281c3"
+  file_name: "[AnimeZid.com].Princess.Mononoke.1997.BluRay.1080p.Dubbed.Ar.mp4"
   piece_size: 19 # Check the README.md for recommended piece size
   maximize_disk_space: false # Set to true if out of disk space
   
