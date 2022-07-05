@@ -24,17 +24,10 @@ jobs:
           remove-android: 'true'
           remove-haskell: 'true'
           
-      - name: Install mktorrent
-        run: sudo apt-get install mktorrent
+      - name: Install transmission
+        run: sudo apt install transmission-cli
         
-      - name: Download file
-        run: aria2c -x 16 -o "$file_name" "$url"
+      - name: Download torrent
+        run: transmission-cli magnet:?xt=urn:btih:af2a6c731512ba28aced24b2e738bfb37989c2a9&dn=Aladdin (1992)&xl=8242709495&tr=http://www.arabp2p.net:2052/e6d79d94f251e59fe472897d0d98c5d3/announce -w ~/Downloads
         
-      - name: Create torrent using mktorrent
-        run: mktorrent -c "$comment" -l $piece_size -o "${name}.torrent" -w "$url" "$file_name" # Tested on v1.1
-        
-      - name: Upload torrent file
-        uses: actions/upload-artifact@v2
-        with:
-          name: ${{ env.name }}
-          path: ${{ env.name }}.torrent
+
