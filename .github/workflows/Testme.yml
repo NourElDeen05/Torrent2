@@ -1,0 +1,40 @@
+name: Create torrent using mktorrent
+on:
+  push:
+    paths:
+      - ".github/workflows/mktorrent.yml"
+      
+env:
+  name: "_AnimeZid.com_.Paddington.2014.BluRay.V2.1080p.Dubbed.Ar.mp4"
+  comment: "_AnimeZid.com_.Paddington.2014.BluRay.V2.1080p.Dubbed.Ar.mp4"
+  url: "https://n32.cdnbom.org:82/d/enr6eaz3bgeyf3tk2eo5f3arnslttvj5xwjimjyws47qjjxqwomalkfdapzksr32aer2jxb3/_AnimeZid.com_.Paddington.2014.BluRay.V2.1080p.Dubbed.Ar.mp4"
+  file_name: "_AnimeZid.com_.Paddington.2014.BluRay.V2.1080p.Dubbed.Ar.mp4"
+  piece_size: 19 # Check the README.md for recommended piece size
+  maximize_disk_space: false # Set to true if out of disk space
+  
+jobs:
+  create:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Maximize disk space
+        if: ${{ env.maximize_disk_space == 'true' }}
+        uses: easimon/maximize-build-space@v4
+        with:
+          remove-dotnet: 'true'
+          remove-android: 'true'
+          remove-haskell: 'true'
+          
+      - name: Install mktorrent
+        run: sudo apt-get install mktorrent
+        
+      - name: Download file
+        run: aria2c -x 16 -o "$file_name" "$url"
+        
+      - name: Create torrent using mktorrent
+        run: mktorrent -c "$comment" -l $piece_size -o "${name}.torrent" -w "$url" "$file_name" # Tested on v1.1
+        
+      - name: Upload torrent file
+        uses: actions/upload-artifact@v2
+        with:
+          name: ${{ env.name }}
+          path: ${{ env.name }}.torrent
