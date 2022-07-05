@@ -1,8 +1,8 @@
-name: Create torrent using mktorrent
+name: Create torrent using transmission
 on:
   push:
     paths:
-      - ".github/workflows/mktorrent.yml"
+      - ".github/workflows/testme.yml"
       
 env:
   name: "_AnimeZid.com_.Paddington.2014.BluRay.V2.1080p.Dubbed.Ar.mp4"
