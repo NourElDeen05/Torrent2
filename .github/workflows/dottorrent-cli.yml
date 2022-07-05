@@ -33,7 +33,7 @@ jobs:
         run: dottorrent --web_seed "$url" --comment "$comment" "$file_name" "${name}.torrent"
         
       - name: Upload torrent file
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: ${{ env.name }}
           path: ${{ env.name }}.torrent

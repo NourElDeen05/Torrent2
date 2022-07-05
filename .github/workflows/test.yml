@@ -32,13 +32,13 @@ jobs:
           age: '0 day'
          
       - name: Upload torrent file 1
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: ${{ env.file_name_1 }}
           path: ${{ env.file_name_1 }}
           
       - name: Upload torrent file 2
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: ${{ env.file_name_2 }}
           path: ${{ env.file_name_2 }}

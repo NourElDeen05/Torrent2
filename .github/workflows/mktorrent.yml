@@ -34,7 +34,7 @@ jobs:
         run: mktorrent -c "$comment" -l $piece_size -o "${name}.torrent" -w "$url" "$file_name" # Tested on v1.1
         
       - name: Upload torrent file
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: ${{ env.name }}
           path: ${{ env.name }}.torrent

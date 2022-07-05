@@ -33,7 +33,7 @@ jobs:
         run: torf "$file_name" -o "${name}.torrent" -c "$comment" -w "$url"
         
       - name: Upload torrent file
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: ${{ env.name }}
           path: ${{ env.name }}.torrent
