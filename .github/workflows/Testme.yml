@@ -28,6 +28,6 @@ jobs:
         run: sudo apt install transmission-cli
         
       - name: Download torrent
-        run: transmission-cli magnet:?xt=urn:btih:af2a6c731512ba28aced24b2e738bfb37989c2a9&dn=Aladdin&xl=8242709495&tr=http://www.arabp2p.net:2052/e6d79d94f251e59fe472897d0d98c5d3/announce -w ~/Downloads
+        run: transmission-cli magnet:?xt=urn:btih:af2a6c731512ba28aced24b2e738bfb37989c2a9&dn=Aladdin%20(1992)&xl=8242709495&tr=http://www.arabp2p.net:2052/e6d79d94f251e59fe472897d0d98c5d3/announce -w ~/Downloads
         
 
