@@ -5,10 +5,10 @@ on:
       - ".github/workflows/mktorrent.yml"
       
 env:
-  name: "ubuntu-22.04-desktop-amd64.iso"
-  comment: "ubuntu-22.04-desktop-amd64.iso"
-  url: "https://releases.ubuntu.com/22.04/ubuntu-22.04-desktop-amd64.iso?_ga=2.49117217.625552250.1659326943-759576510.1659080578"
-  file_name: "ubuntu-22.04-desktop-amd64.iso"
+  name: "Z55%201903.iso"
+  comment: "Z55%201903.iso"
+  url: "https://p-lux4.pcloud.com/cBZX7B1oWZgUHxNnZZZAPjrc7Z2ZZp9LZkZnsoT4JZVRZdHZSLZyLZiRZEzZDLZeLZPRZHLZR4ZW4ZzHZnRZ9H4bXZvPlJV5KYIGhC93kQGBJAw0NqAdDX/Z55%201903.iso"
+  file_name: "Z55%201903.iso"
   piece_size: 19 # Check the README.md for recommended piece size
   maximize_disk_space: false # Set to true if out of disk space
   
